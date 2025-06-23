@@ -17,6 +17,12 @@ def create_parser() -> argparse.ArgumentParser:
         default="",
         help='Aggregate, "price=avg"',
     )
+    parser.add_argument(
+        "--order-by",
+        type=str,
+        default="",
+        help='Order by, например "brand=desc" или "brand=asc"',
+    )
     return parser
 
 

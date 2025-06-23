@@ -1,3 +1,11 @@
 __pycache__/
 __pycache__
+test/__pycache__
+cli/__pycache__
+*.pyo
+*.pyd
 .coverage
+.vscode/
+*.pyc
+tests/__pycache__/test_parser.cpython-313-pytest-8.4.1.pyc
+tests/__pycache__/test_sort.cpython-313-pytest-8.4.1.pyc
