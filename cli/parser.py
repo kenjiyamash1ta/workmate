@@ -4,7 +4,7 @@ from typing import Dict, Any
 
 def create_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Process CSV file.")
-    parser.add_argument("file", type=str, help="Path to the CSV file")
+    parser.add_argument("--file", type=str, help="Path to the CSV file")
     parser.add_argument(
         "--where",
         type=str,
