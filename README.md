@@ -22,7 +22,7 @@
 
 1. Клонируйте репозиторий:
     ```sh
-    git clone git@github.com:kenjiyamash1ta/workmate.git
+    git clone https://github.com/kenjiyamash1ta/workmate.git
     cd workmate
     ```
 
