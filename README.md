@@ -26,6 +26,12 @@
     cd workmate
     ```
 
+2. Создание виртуального окружения
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\\Scripts\\activate  # Windows
+    ```
 2. Установите зависимости:
     ```sh
     pip install -r requarement.txt
