@@ -45,8 +45,8 @@ python main.py --file products.csv
 ```sh
 python main.py --file products.csv --order-by "brand=asc"
 python main.py --file products.csv --where "price>500" --order-by "price=desc"
-python main.py --file products.csv --aggregate "rating=avg" --order-by "name=asc"
-python main.py --file products.csv --where "price<=500" --aggregate "price=max" --order-by "price=asc"
+python main.py --file products.csv --order-by "name=asc"
+python main.py --file products.csv --where "price<=500" --order-by "price=asc"
 ```
 - `--file` — путь к CSV-файлу (обязательный параметр)
 - `--where` — фильтр (например, `"price>500"`)
